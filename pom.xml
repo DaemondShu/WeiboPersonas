@@ -6,11 +6,19 @@
 
     <groupId>MonkeyDGroup</groupId>
     <artifactId>WeiboPersonas</artifactId>
+    <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>UserMerger</module>
+    </modules>
 
 
     <dependencies>
-
+        <dependency>
+            <groupId>org.mongodb</groupId>
+            <artifactId>mongodb-driver</artifactId>
+            <version>3.2.2</version>
+        </dependency>
 
     </dependencies>
 
