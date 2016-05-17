@@ -8,6 +8,12 @@ import java.util.Date;
 /**
  * Created by lyn on 16-5-17.
  */
+
+/**
+ * 时间分析：群体分析制定tag
+ * 个体频率统计排序
+ * 拓展：个体时间 kmeans聚类
+ */
 public class TimeAnalysis {
     private MongoDatabase database;
 

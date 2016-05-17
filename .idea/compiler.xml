@@ -23,6 +23,7 @@
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
         <module name="dataAccess" />
+        <module name="RoleAnalysis" />
         <module name="TestDataAccess" />
         <module name="TimeAnalysis" />
         <module name="UserMerger" />
@@ -30,6 +31,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="dataAccess" target="1.5" />
+      <module name="RoleAnalysis" target="1.5" />
       <module name="TestDataAccess" target="1.5" />
       <module name="TimeAnalysis" target="1.5" />
       <module name="UserMerger" target="1.5" />
