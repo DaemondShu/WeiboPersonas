@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/TestDataAccess/TestDataAccess.iml" filepath="$PROJECT_DIR$/TestDataAccess/TestDataAccess.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TimeAnalysis/TimeAnalysis.iml" filepath="$PROJECT_DIR$/TimeAnalysis/TimeAnalysis.iml" />
       <module fileurl="file://$PROJECT_DIR$/UserMerger/UserMerger.iml" filepath="$PROJECT_DIR$/UserMerger/UserMerger.iml" />
       <module fileurl="file://$PROJECT_DIR$/WeiboPersonas.iml" filepath="$PROJECT_DIR$/WeiboPersonas.iml" />
     </modules>

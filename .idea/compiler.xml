@@ -24,12 +24,14 @@
         <processorPath useClasspath="true" />
         <module name="dataAccess" />
         <module name="TestDataAccess" />
+        <module name="TimeAnalysis" />
         <module name="UserMerger" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="dataAccess" target="1.5" />
       <module name="TestDataAccess" target="1.5" />
+      <module name="TimeAnalysis" target="1.5" />
       <module name="UserMerger" target="1.5" />
       <module name="WeiboPersonas" target="1.5" />
     </bytecodeTargetLevel>
