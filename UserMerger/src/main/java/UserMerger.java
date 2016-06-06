@@ -1,12 +1,14 @@
-import com.mongodb.Mongo;
+
 import com.mongodb.MongoClient;
 import com.mongodb.client.FindIterable;
 import com.mongodb.client.MongoCollection;
 import com.mongodb.client.MongoDatabase;
 import org.bson.Document;
-import org.bson.json.JsonWriter;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Map;
+import java.util.TreeMap;
+
 
 /**
  * Created by monkey_d_asce on 16-5-9.
@@ -94,7 +96,7 @@ public class UserMerger
     public void doSave(String destCollection)
     {
         MongoCollection collection = database.getCollection(destCollection);
-        
+
         collection.insertMany(new ArrayList<Document>(userMap.values()));
     }
 

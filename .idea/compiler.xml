@@ -24,7 +24,6 @@
         <processorPath useClasspath="true" />
         <module name="dataAccess" />
         <module name="RoleAnalysis" />
-        <module name="TestDataAccess" />
         <module name="TimeAnalysis" />
         <module name="UserMerger" />
       </profile>
