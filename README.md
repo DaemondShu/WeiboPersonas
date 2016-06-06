@@ -34,7 +34,7 @@ mongodb 3.2.x
   - 分词结果 weibo_keyword.json
   - 情感分析结果 weibo_emotion.json, (通过排序法的情感分析：weibo_emotion_sort.json)
   - 兴趣分析结果 weibo_interest.json
-  - 时间分析结果 weibo_time.json
+  - 时间分析结果 weibo_time.json （个体聚类结果见weibo_timeCluster.json）
   - 角色分析结果 weibo_role.json
 
 
@@ -301,7 +301,7 @@ mongodb 3.2.x
 #### 时间作息分析
 时间做了两个模块的分析，第一模块主要是通过时间分析对用户进行相关的特征分析，第二模块则是采用kmeans算法对每个用户的微博时间进行聚类，获取相对频繁发微博的时间。
 
-第一模块：
+#####群体分析标签定义
 
    1. 对时间按小时进行分组，结果如下
 
@@ -336,7 +336,6 @@ mongodb 3.2.x
    4. 取至多三个频数最高的相应属性
    ```json
    {
-    "_id" : ObjectId("575560fae799915351afa91a"),
     "user" : "-宝---宝-",
     "timeTags" : [
         "经常值夜班或失眠",
@@ -345,12 +344,12 @@ mongodb 3.2.x
     ]
 }
 ```
-第二模块：
+
+#####个体聚类分析
 
 对每个用户进行kmeans聚类分析(K取4)，得到K个簇和K个中心点。K个中心点关于相应的簇的时间个数呈降序排列，则非常清楚地可以看出用户主要活跃的时间
 ```json
 {
-    "_id" : ObjectId("575560fbe799915351afcfe4"),
     "user" : "---麗--",
     "Cluster" : [
         [
@@ -404,7 +403,6 @@ mongodb 3.2.x
 1. 各种类型微博的数量
 ```json
 {
-    "_id" : ObjectId("57556ee2e7999157385ddf4d"),
     "user" : "----柠檬皮----",
     "pureRepost" : 4,
     "modiRepost" : 12,
@@ -415,7 +413,6 @@ mongodb 3.2.x
 2. 分析得到的tag（一般只有一个，说明这个转发习惯可以反应一定的人物性格）
 ```json
 {
-    "_id" : ObjectId("57556ee3e7999157385e062b"),
     "user" : "----柠檬皮----",
     "roleTags" : [
         "加工转发"
@@ -423,15 +420,6 @@ mongodb 3.2.x
 }
 ```
 
-
-
-
-### 准确度
-
-### 群体性行为和个体性行为差异
-
-### 应用
-因为这次数据大多数微博的内容十分单一，在话题分析的出结果是不有趣的，并不具有十分大的利用价值。
 
 ## 参考链接
 如何构建用户画像- 概述 - http://www.woshipm.com/pmd/107919.html
