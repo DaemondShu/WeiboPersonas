@@ -23,21 +23,25 @@
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
         <module name="dataAccess" />
-        <module name="InterestAnalysis" />
+        <module name="EmotionAnalyse" />
         <module name="RoleAnalysis" />
-        <module name="TestDataAccess" />
         <module name="TimeAnalysis" />
         <module name="UserMerger" />
+        <module name="WordDivision" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="dataAccess" target="1.5" />
-      <module name="InterestAnalysis" target="1.5" />
+      <module name="EmotionAnalyse" target="1.5" />
       <module name="RoleAnalysis" target="1.5" />
+      <module name="test1" target="1.5" />
       <module name="TestDataAccess" target="1.5" />
-      <module name="TimeAnalysis" target="1.5" />
+      <module name="TimeAnalysis" target="1.7" />
       <module name="UserMerger" target="1.5" />
       <module name="WeiboPersonas" target="1.5" />
+      <module name="Word" target="1.5" />
+      <module name="WordDivision" target="1.5" />
+      <module name="WordsDivision" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>

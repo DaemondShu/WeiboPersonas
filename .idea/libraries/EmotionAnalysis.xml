@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="EmotionAnalysis">
+    <CLASSES>
+      <root url="file://D:/src/SemanticAnalysis/lib" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+    <jarDirectory url="file://D:/src/SemanticAnalysis/lib" recursive="false" />
+  </library>
+</component>

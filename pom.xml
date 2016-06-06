@@ -11,7 +11,9 @@
     <modules>
         <module>UserMerger</module>
         <module>RoleAnalysis</module>
-        <module>InterestAnalysis</module>
+        <module>EmotionAnalyse</module>
+        <module>WordDivision</module>
+        <module>TimeAnalysis</module>
     </modules>
 
 
@@ -21,7 +23,11 @@
             <artifactId>mongodb-driver</artifactId>
             <version>3.2.2</version>
         </dependency>
-
+        <dependency>
+            <groupId>com.hankcs</groupId>
+            <artifactId>hanlp</artifactId>
+            <version>portable-1.2.9</version>
+        </dependency>
     </dependencies>
 
 </project>
