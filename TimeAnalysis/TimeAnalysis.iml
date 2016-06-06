@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<module type="JAVA_MODULE" version="4">
-  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_5" inherit-compiler-output="false">
+<module org.jetbrains.idea.maven.project.MavenProjectsManager.isMavenModule="true" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_7" inherit-compiler-output="false">
     <output url="file://$MODULE_DIR$/target/classes" />
     <output-test url="file://$MODULE_DIR$/target/test-classes" />
     <content url="file://$MODULE_DIR$">
@@ -14,5 +14,6 @@
     <orderEntry type="library" name="Maven: org.mongodb:mongodb-driver:3.2.2" level="project" />
     <orderEntry type="library" name="Maven: org.mongodb:mongodb-driver-core:3.2.2" level="project" />
     <orderEntry type="library" name="Maven: org.mongodb:bson:3.2.2" level="project" />
+    <orderEntry type="library" name="Maven: com.hankcs:hanlp:portable-1.2.9" level="project" />
   </component>
 </module>

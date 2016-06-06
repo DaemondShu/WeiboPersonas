@@ -25,7 +25,6 @@
         <module name="dataAccess" />
         <module name="EmotionAnalyse" />
         <module name="RoleAnalysis" />
-        <module name="TestDataAccess" />
         <module name="TimeAnalysis" />
         <module name="UserMerger" />
         <module name="WordDivision" />
@@ -37,7 +36,7 @@
       <module name="RoleAnalysis" target="1.5" />
       <module name="test1" target="1.5" />
       <module name="TestDataAccess" target="1.5" />
-      <module name="TimeAnalysis" target="1.5" />
+      <module name="TimeAnalysis" target="1.7" />
       <module name="UserMerger" target="1.5" />
       <module name="WeiboPersonas" target="1.5" />
       <module name="Word" target="1.5" />

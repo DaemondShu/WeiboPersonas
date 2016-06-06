@@ -13,6 +13,7 @@
         <module>RoleAnalysis</module>
         <module>EmotionAnalyse</module>
         <module>WordDivision</module>
+        <module>TimeAnalysis</module>
     </modules>
 
 
