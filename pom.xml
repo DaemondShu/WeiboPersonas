@@ -11,6 +11,7 @@
     <modules>
         <module>UserMerger</module>
         <module>RoleAnalysis</module>
+        <module>TimeAnalysis</module>
     </modules>
 
 

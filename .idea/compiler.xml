@@ -33,7 +33,7 @@
       <module name="dataAccess" target="1.5" />
       <module name="RoleAnalysis" target="1.5" />
       <module name="TestDataAccess" target="1.5" />
-      <module name="TimeAnalysis" target="1.5" />
+      <module name="TimeAnalysis" target="1.7" />
       <module name="UserMerger" target="1.5" />
       <module name="WeiboPersonas" target="1.5" />
     </bytecodeTargetLevel>

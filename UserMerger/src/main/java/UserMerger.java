@@ -94,8 +94,7 @@ public class UserMerger
     public void doSave(String destCollection)
     {
         MongoCollection collection = database.getCollection(destCollection);
-
-
+        
         collection.insertMany(new ArrayList<Document>(userMap.values()));
     }
 
