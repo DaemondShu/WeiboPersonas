@@ -9,6 +9,7 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/dataAccess/pom.xml" />
         <option value="$PROJECT_DIR$/TestDataAccess/pom.xml" />
+        <option value="$PROJECT_DIR$/InterestAnalysis/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

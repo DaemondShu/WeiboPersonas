@@ -24,15 +24,15 @@ mongodb 3.2.x
 ##文件说明
 - 处理代码 流程中的每一步都是单独一个可运行的模块
   - 预处理 UserMerger/*
-  - 分词  DivideWord/*
+  - 分词  WordDivision/*
   - 情感分析 EmotionAnalysis/*
   - 兴趣分析 InterestAnalysis/*
   - 时间分析 TimeAnalysis/*
   - 角色分析 RoleAnalysis/*
 - 处理结果 dat/*
-  - 预处理结果 weibo_active.json
+  - 预处理结果 weibo_active.json (比较大，见百度云 http://pan.baidu.com/s/1miCORJ6 密码: gzva)
   - 分词结果 weibo_keyword.json
-  - 情感分析结果 weibo_emotion.json, (情感分析的中间结果：weibo_emotion_middle.json)
+  - 情感分析结果 weibo_emotion.json, (通过排序法的情感分析：weibo_emotion_sort.json)
   - 兴趣分析结果 weibo_interest.json
   - 时间分析结果 weibo_time.json
   - 角色分析结果 weibo_role.json

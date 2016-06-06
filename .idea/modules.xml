@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/EmotionAnalyse/EmotionAnalyse.iml" filepath="$PROJECT_DIR$/EmotionAnalyse/EmotionAnalyse.iml" />
+      <module fileurl="file://$PROJECT_DIR$/InterestAnalysis/InterestAnalysis.iml" filepath="$PROJECT_DIR$/InterestAnalysis/InterestAnalysis.iml" />
       <module fileurl="file://$PROJECT_DIR$/RoleAnalysis/RoleAnalysis.iml" filepath="$PROJECT_DIR$/RoleAnalysis/RoleAnalysis.iml" />
       <module fileurl="file://$PROJECT_DIR$/TimeAnalysis/TimeAnalysis.iml" filepath="$PROJECT_DIR$/TimeAnalysis/TimeAnalysis.iml" />
       <module fileurl="file://$PROJECT_DIR$/UserMerger/UserMerger.iml" filepath="$PROJECT_DIR$/UserMerger/UserMerger.iml" />

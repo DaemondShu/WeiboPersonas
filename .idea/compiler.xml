@@ -24,6 +24,7 @@
         <processorPath useClasspath="true" />
         <module name="dataAccess" />
         <module name="EmotionAnalyse" />
+        <module name="InterestAnalysis" />
         <module name="RoleAnalysis" />
         <module name="TimeAnalysis" />
         <module name="UserMerger" />
@@ -33,6 +34,7 @@
     <bytecodeTargetLevel>
       <module name="dataAccess" target="1.5" />
       <module name="EmotionAnalyse" target="1.5" />
+      <module name="InterestAnalysis" target="1.5" />
       <module name="RoleAnalysis" target="1.5" />
       <module name="test1" target="1.5" />
       <module name="TestDataAccess" target="1.5" />
