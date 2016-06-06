@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/InterestAnalysis/InterestAnalysis.iml" filepath="$PROJECT_DIR$/InterestAnalysis/InterestAnalysis.iml" />
       <module fileurl="file://$PROJECT_DIR$/RoleAnalysis/RoleAnalysis.iml" filepath="$PROJECT_DIR$/RoleAnalysis/RoleAnalysis.iml" />
       <module fileurl="file://$PROJECT_DIR$/TestDataAccess/TestDataAccess.iml" filepath="$PROJECT_DIR$/TestDataAccess/TestDataAccess.iml" />
       <module fileurl="file://$PROJECT_DIR$/TimeAnalysis/TimeAnalysis.iml" filepath="$PROJECT_DIR$/TimeAnalysis/TimeAnalysis.iml" />
