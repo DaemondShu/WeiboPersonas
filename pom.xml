@@ -11,6 +11,8 @@
     <modules>
         <module>UserMerger</module>
         <module>RoleAnalysis</module>
+        <module>EmotionAnalyse</module>
+        <module>WordDivision</module>
     </modules>
 
 

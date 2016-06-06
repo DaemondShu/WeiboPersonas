@@ -11,6 +11,13 @@
         <option value="$PROJECT_DIR$/TestDataAccess/pom.xml" />
       </list>
     </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/Word/pom.xml" />
+        <option value="$PROJECT_DIR$/WordsDivision/pom.xml" />
+        <option value="$PROJECT_DIR$/test1/pom.xml" />
+      </set>
+    </option>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
